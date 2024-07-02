@@ -37,7 +37,7 @@
 // function handleobject(anyobject){
 //     console.log(`Name is ${anyobject.username} price is ${anyobject.price}`);
 // }
-// // handleobject(user)
+// handleobject(user)
 // handleobject({
 //     username: "Sam",
 //     price: 200

@@ -6,13 +6,13 @@
 //     console.log("inner:", a);
 // }
 // console.log(a);
-function one(){
-    const name ="ayush";
-    function two(){
-        const website = 'github';
-        console.log(name);
-    }
-    two()
-    console.log(name);
-}
-one()
+// function one(){
+//     const name ="ayush";
+//     function two(){
+//         const website = 'github';
+//         console.log(name);
+//     }
+//     two()
+//     console.log(name);
+// }
+// one()
