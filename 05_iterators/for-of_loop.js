@@ -1,4 +1,4 @@
-// //this can take the length of data in variable by it's own :
+// //this can take the length of data in variable by it's own :     This picks the values stored in keys.
 // const number = [1,2,3,4,5,6,7,8,9]
 // for (const num of number) {
 //     //console.log(num);
