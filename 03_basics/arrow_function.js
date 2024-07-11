@@ -29,12 +29,15 @@
 // }
 // console.log(two(3,4));
 
-// const three = (num1, num2)=> {return num1 + num2}
-// console.log(three(4,5));
+const three = (num1, num2)=> {return num1 + num2}
+console.log(three(4,5));
 
 //implicit function
 // const four = (num1, num2)=> num1 + num2
 // console.log(four(5,6));
 
-// const four = (num1, num2)=> ({user_name: "ayush"}) //object must be returned inside the parenthesis
-// console.log(four(3,8))
+const four = (num1, num2)=> ({user_name: "ayush"}) //object must be returned inside the parenthesis
+console.log(four(3,8))
+
+//I scope {} starts in arrow function you need to return it explicitly
+//Otherwise use parenthesis to return imp
