@@ -46,7 +46,7 @@
 // // const all =  marvel.concat(DC) // concat design a new array after combining.
 // // console.log(all);
 
-// const all_new = [...marvel,...DC] //spread method used to seperate all elements present in the array.
+// const all_new = [...marvel,...DC] //spread method used to merge all elements present in the array.
 // console.log(all_new);
 
 // const any = [1,2,3,[4,5,6],7,8,[9,0,[12,13]]]
