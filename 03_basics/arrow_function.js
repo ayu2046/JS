@@ -40,4 +40,4 @@ const four = (num1, num2)=> ({user_name: "ayush"}) //object must be returned ins
 console.log(four(3,8))
 
 //I scope {} starts in arrow function you need to return it explicitly
-//Otherwise use parenthesis to return imp
+//Otherwise use parenthesis to return implicit
