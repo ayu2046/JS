@@ -40,3 +40,9 @@ const books = [
 // const userbk = books.filter((books)=>books.publish>=2000)
 const userbk = books.filter((books)=>books.publish>=1985 && books.genre==="Non-Fiction" || books.edition>=1990 )
   console.log(userbk);
+const boobs = [1,2,3,4,5,6]
+  const abc = boobs
+                  .map( (num) => (num*10) )
+                  .map( (num) => num+1 )
+                  .filter((num)=> num>30 && num<50)
+console.log(abc);
