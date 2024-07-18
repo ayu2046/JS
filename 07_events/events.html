@@ -13,7 +13,7 @@
             <li><img id="japan" width="200px" src="https://images.pexels.com/photos/3532553/pexels-photo-3532553.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="japan"></li>
             <li><img id="river" width="200px" src="https://images.pexels.com/photos/3532551/pexels-photo-3532551.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="river"></li>
             <li><img id="owl" width="200px" src="https://images.pexels.com/photos/3532552/pexels-photo-3532552.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="owl"></li>
-            <li><a style="color: antiquewhite;" href="https://google.com">google</a></li>
+            <li><a style="color: antiquewhite;" href="https://google.com" id="google">google</a></li>
         </ul>
     </div>
 </body>
@@ -24,10 +24,39 @@
 //clientX, clientY, ScreenX, ScreenY
 //altkey, ctrlkey, Shiftkey, keycode
     // document.getElementById('owl').onclick = ()=> alert('owl here')
-    document.getElementById('owl').onclick = function (){
-        alert('owl here')
-    ,false} 
 
+    //event bubbling
+    // document.getElementById('images').onclick = function (e){
+    //     console.log('ul here')
+    // ,false}
+    // document.getElementById('owl').onclick = function (e){
+    //     console.log('owl here')
+    // ,false}
+    // //event propogation 
+    // e.stopPropagation()
+    //     //event capturing
+    // document.getElementById('images').onclick = function (e){
+    //     console.log('ul here')
+    // ,true}
+    // document.getElementById('owl').onclick = function (e){
+    //     console.log('owl here')
+    // ,true}
+    //event propogation:- bubbling> bottom to top, capturing> top to bottom.......
+    
+    //preventdefault
+    // document.getElementById('google').addEventListener
+    // ('click', function (e){
+    //     e.preventDefault()
+    //     e.stopPropagation()
+    //     console.log("google clicked");
+    //     },false)
+
+    document.querySelector('#images').addEventListener
+    ('click', function (e){
+        console.log(e.target.parentNode);
+        let a = e.target.parentNode;
+        a.remove()
+    },false)
     
 
 </script>
